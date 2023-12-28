@@ -9,8 +9,7 @@ import org.hibernate.envers.RevisionTimestamp;
 
 import java.io.Serializable;
 import java.util.Date;
-
-@Entity
+//@Entity
 @Table(name = "REVISION_INFO")
 @RevisionEntity(CustomRevisionListener.class)
 @Data

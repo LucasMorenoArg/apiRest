@@ -15,8 +15,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Getter
 @Setter
-@Audited
-
+//@Audited
 public class Persona implements Serializable {
 
     @Id
