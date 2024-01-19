@@ -11,7 +11,7 @@ import java.util.HashSet;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path="/prueba")
+@RequestMapping(path="/api/v1/persona")
     public class PersonaController {
 
     @Autowired
