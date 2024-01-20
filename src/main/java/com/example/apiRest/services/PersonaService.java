@@ -2,7 +2,6 @@ package com.example.apiRest.services;
 
 import com.example.apiRest.entities.Persona;
 import com.example.apiRest.repositories.PersonaRepository;
-import jakarta.persistence.Entity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
