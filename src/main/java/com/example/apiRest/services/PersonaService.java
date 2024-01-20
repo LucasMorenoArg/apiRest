@@ -56,20 +56,20 @@ public class PersonaService implements BaseService<Persona>{
     @Override
     @Transactional
     public Persona update(Long id, Persona entity) throws Exception {
+
         try {
             Optional<Persona> personaOptional=personaRepository.findById(id);
             Persona persona = personaOptional.get();
-            persona = personaRepository.save(persona);
+            return persona = personaRepository.save(entity);
         } catch (Exception e){
             throw new Exception(e.getMessage());
-
         }
-        return null;
     }
 
     @Override
     @Transactional
     public boolean delete(Long id) throws Exception {
+        
         try {
             if (personaRepository.existsById(id)){
                 personaRepository.deleteById(id);
