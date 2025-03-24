@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ApiRestApplication {
 
 	public static void main(String[] args) {SpringApplication.run(ApiRestApplication.class, args);
-	}
+	System.out.println("Hola Mundo");}
 
 }
