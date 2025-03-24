@@ -20,5 +20,4 @@ public class Autor extends Base{
     private String nombre;
     private String apellido;
     private String biografia;
-
 }
