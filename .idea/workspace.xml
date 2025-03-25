@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e1a528-228d-4d5b-b10a-6e5c6be3646a" name="Changes" comment="Cambios en Audit.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/FiguraGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Rectangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/TestFiguras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4e1a528-228d-4d5b-b10a-6e5c6be3646a" name="Changes" comment="Ejemplo clase abstracta." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742849105557</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ejemplo clase abstracta.">
+      <option name="closed" value="true" />
+      <created>1742869863467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742869863467</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +218,7 @@
     <MESSAGE value="Cambios en atributos." />
     <MESSAGE value="Cambios en atributos II." />
     <MESSAGE value="Cambios en Audit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en Audit." />
+    <MESSAGE value="Ejemplo clase abstracta." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo clase abstracta." />
   </component>
 </project>
