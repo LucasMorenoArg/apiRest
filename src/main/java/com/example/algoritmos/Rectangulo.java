@@ -11,11 +11,12 @@ public class Rectangulo extends FiguraGeometrica{
     private double altura;
 
     public Rectangulo(double base, double altura) {
+        super("Rectangulo");
         this.base = base;
         this.altura = altura;
     }
 
     public double area() {
-        return 0;
+        return base * altura/2;
     }
 }

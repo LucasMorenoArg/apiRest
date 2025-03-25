@@ -8,6 +8,7 @@ public class Triangulo extends  FiguraGeometrica{
 
 
     public Triangulo(double base, double altura){
+        super("Triangulo");
         this.base = base;
         this.altura = altura;
     }

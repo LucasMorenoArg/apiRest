@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e1a528-228d-4d5b-b10a-6e5c6be3646a" name="Changes" comment="Ejemplo clase abstracta." />
+    <list default="true" id="d4e1a528-228d-4d5b-b10a-6e5c6be3646a" name="Changes" comment="Ejemplo clase abstracta.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/FiguraGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/FiguraGeometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algoritmos/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Circulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Circulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/algoritmos/FiguraGeometrica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/algoritmos/FiguraGeometrica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Rectangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Rectangulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/algoritmos/TestFiguras.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/algoritmos/TestFiguras.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Triangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/algoritmos/Triangulo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742869863467</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ejemplo clase abstracta.">
+      <option name="closed" value="true" />
+      <created>1742870095884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742870095884</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

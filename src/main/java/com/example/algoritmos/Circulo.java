@@ -1,11 +1,17 @@
 package com.example.algoritmos;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Circulo extends FiguraGeometrica{
 
     private int radio;
 
-    public Circulo(int radio) {
-        this.radio = radio;
+    public Circulo(int rad) {
+        super("Circulo");
+        radio = rad;
     }
 
     @Override
