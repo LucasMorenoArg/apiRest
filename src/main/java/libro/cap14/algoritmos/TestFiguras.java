@@ -6,11 +6,15 @@ public class TestFiguras {
         Rectangulo r = new Rectangulo(12,4);
         Triangulo t = new Triangulo(2,5);
 
-        FiguraGeometrica arr[] = {new Circulo(23),
+        FiguraGeometrica[] arr = {new Circulo(23),
                                   new Rectangulo(12,4),
                                   new Triangulo(2,5)};
         double prom = FiguraGeometrica.areaPromedio(arr);
         System.out.println("Promedio = " + prom);
+
+        String [] palabras;
+
+
 
 
 

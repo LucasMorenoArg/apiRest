@@ -1,4 +1,4 @@
-package libro.cap14.apiRest.entities;
+package apiRest.entities;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

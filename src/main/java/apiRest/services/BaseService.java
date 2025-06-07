@@ -1,4 +1,4 @@
-package libro.cap14.apiRest.services;
+package apiRest.services;
 
 import java.util.List;
 

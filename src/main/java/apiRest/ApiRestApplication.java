@@ -1,4 +1,4 @@
-package libro.cap14.apiRest;
+package apiRest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package libro.cap14.apiRest.repositories;
+package apiRest.repositories;
 
-import libro.cap14.apiRest.entities.Persona;
+import apiRest.entities.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
-package libro.cap14.apiRest.controllers;
+package apiRest.controllers;
 
-import libro.cap14.apiRest.entities.Persona;
-import libro.cap14.apiRest.services.PersonaService;
+import apiRest.entities.Persona;
+import apiRest.services.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

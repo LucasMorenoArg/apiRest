@@ -1,7 +1,7 @@
-package libro.cap14.apiRest.services;
+package apiRest.services;
 
-import libro.cap14.apiRest.entities.Persona;
-import libro.cap14.apiRest.repositories.PersonaRepository;
+import apiRest.entities.Persona;
+import apiRest.repositories.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

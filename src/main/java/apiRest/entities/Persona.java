@@ -1,7 +1,6 @@
-package libro.cap14.apiRest.entities;
+package apiRest.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,15 +8,18 @@ import lombok.Setter;
 import org.hibernate.envers.Audited;
 
 @Entity
-@Table(name = "autor")
+@Table(name= "persona")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @Audited
-public class Autor extends Base{
+public class Persona extends Base {
 
+    @Column(name = "nombre")
     private String nombre;
+    @Column(name = "apellido")
     private String apellido;
-    private String biografia;
+    @Column(name = "dni")
+    private int dni;
 }
