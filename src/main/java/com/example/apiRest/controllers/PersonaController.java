@@ -40,7 +40,9 @@ import org.springframework.web.bind.annotation.*;
 
     @PostMapping("")
     public ResponseEntity<?> save(@RequestBody Persona entity){
+
         try {
+
             return  ResponseEntity.status(HttpStatus.OK).
                     body(personaService.save(entity));
         } catch (Exception e){
