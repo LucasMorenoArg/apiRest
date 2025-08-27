@@ -1,6 +1,7 @@
 package com.example.apiRest.services;
 
 import com.example.apiRest.entities.Persona;
+import com.example.apiRest.mapper.JsonToObjectMapper;
 import com.example.apiRest.repositories.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,6 +15,13 @@ public class PersonaService implements BaseService<Persona>{
 
     @Autowired
     private PersonaRepository personaRepository;
+
+    private final JsonToObjectMapper jsonToObjectMapper;
+
+    public PersonaService(JsonToObjectMapper jsonToObjectMapper) {
+        this.jsonToObjectMapper = jsonToObjectMapper;
+    }
+
     @Override
     @Transactional
     public List<Persona> findAll() throws Exception {
