@@ -1,5 +1,7 @@
 package com.example.jsonToStringPrueba.dto;
 
+import java.util.List;
+
 public class CotizacionResultadoDTO {
 
     private String numCotizacion;
