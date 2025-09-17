@@ -3,16 +3,14 @@ package com.example.jsonToStringPrueba.service;
 import com.example.jsonToStringPrueba.dto.Persona;
 import com.example.jsonToStringPrueba.mappers.JsonToObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class PersonaService {
 
-    private final JsonToObjectMapper jsonToObjectMapper;
-
-    public PersonaService(JsonToObjectMapper jsonToObjectMapper) {
-        this.jsonToObjectMapper = jsonToObjectMapper;
-    }
+    @Autowired
+    private JsonToObjectMapper jsonToObjectMapper;
 
     public Persona mapeo(String persona) throws JsonProcessingException {
 

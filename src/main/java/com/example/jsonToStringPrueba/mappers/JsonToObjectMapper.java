@@ -10,6 +10,7 @@ public class JsonToObjectMapper {
     private ObjectMapper objectMapper = new ObjectMapper();
 
     public <T> T jsonToObject(String json, Class<T> type) throws JsonProcessingException {
+
         return objectMapper.readValue(json, type);
     }
 }

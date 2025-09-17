@@ -26,12 +26,12 @@ public class jsonController {
     private Logger logger;
 
     @PostMapping("")
-    public Persona mapeo (@RequestBody String persona) throws JsonProcessingException {
+    public String mapeo (@RequestBody String persona) throws JsonProcessingException {
 
-
+        System.out.println(persona);
         //objectMapper.readValue(persona, Persona.class);
-
-        Persona p = personaService.mapeo(persona);
+        personaService.mapeo(persona);
+        String p = String.valueOf(personaService.mapeo(persona));
 
         return p;
     }
