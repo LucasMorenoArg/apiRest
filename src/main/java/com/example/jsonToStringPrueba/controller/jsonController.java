@@ -25,7 +25,7 @@ public class jsonController {
 
     private Logger logger;
 
-    @PostMapping("")
+    @PostMapping("prueba")
     public String mapeo (@RequestBody String persona) throws JsonProcessingException {
 
         System.out.println(persona);
