@@ -1,6 +1,6 @@
 package com.example.apiRest.services;
 
-import com.example.apiRest.entities.Persona;
+import com.example.apiRest.dto.Persona;
 import com.example.apiRest.mapper.JsonToObjectMapper;
 import com.example.apiRest.repositories.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;

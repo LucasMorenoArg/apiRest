@@ -1,6 +1,6 @@
 package com.example.apiRest.controllers;
 
-import com.example.apiRest.entities.Persona;
+import com.example.apiRest.dto.Persona;
 import com.example.apiRest.services.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
